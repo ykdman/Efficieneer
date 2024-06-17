@@ -6,7 +6,7 @@ function Root() {
   return (
     <>
       <MainNavigation />
-      <main>
+      <main className="h-screen">
         <Outlet />
       </main>
     </>

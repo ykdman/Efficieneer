@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 :root {
-  /* background: #e9c874; */
+  /* background: #434242; */
+  background: #686d76;
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
 }

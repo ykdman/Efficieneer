@@ -7,6 +7,10 @@ export default {
         signature: "#4CCD99", // 프로젝트 시그니처 색상
         primary: "#FBF3D5",
         black: "#000",
+        card: "#E8F6EF",
+        button: {
+          common: "#495e57",
+        },
       },
       keyframes: {
         slideIn: {
