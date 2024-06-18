@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import NavList from "./NavList";
 import MainTitle from "./MainTitle";
 
@@ -14,7 +14,7 @@ function MainNavigation() {
   return (
     <header
       id="root-header"
-      className="bg-signature h-24 max-h-24 w-full max-w-full min-w-full flex justify-around"
+      className="bg-signature h-24 max-h-24 l max-w-full min-w-full flex justify-around w-screen fixed"
     >
       <section
         id="root-title"
