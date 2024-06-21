@@ -1,11 +1,14 @@
 import MainNavigation from "./MainNavigation";
 import { Outlet } from "react-router-dom";
 
+const className =
+  "h-full flex justify-center items-baseline fixed top-[96px] w-full md:h-max";
+
 function Root() {
   return (
     <>
       <MainNavigation />
-      <main className="h-screen flex justify-center items-baseline fixed top-[96px] translate-x-[-50%] left-[50%] w-full">
+      <main className="flex justify-center items-baseline pt-[96px] w-full h-full md:h-auto overflow-auto">
         <Outlet />
       </main>
     </>
