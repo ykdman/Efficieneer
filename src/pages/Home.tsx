@@ -22,7 +22,7 @@ function Home() {
     <>
       <section
         id="card-nav"
-        className="w-9/12 flex flex-col flex-wrap justify-center items-center min-h-max my-5 md:flex-row "
+        className="w-9/12 flex flex-col flex-wrap justify-center items-center min-h-full my-5 md:flex-row h-full"
       >
         {cardDatas.map((cardData) => (
           <CardItem

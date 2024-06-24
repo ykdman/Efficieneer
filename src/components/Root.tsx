@@ -1,11 +1,17 @@
 import MainNavigation from "./MainNavigation";
 import { Outlet } from "react-router-dom";
 
+const className =
+  "flex justify-center items-baseline pt-[96px] w-full h-full md:h-auto overflow-auto";
+
+const mainClass =
+  "grid place-items-center pt-[96px] w-full h-full md:h-auto overflow-auto";
+
 function Root() {
   return (
     <>
       <MainNavigation />
-      <main className="h-screen flex justify-center items-baseline fixed top-[96px] translate-x-[-50%] left-[50%] w-full">
+      <main className="grid place-items-center pt-[96px] w-screen h-screen overflow-auto">
         <Outlet />
       </main>
     </>
