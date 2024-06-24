@@ -1,5 +1,7 @@
 # Efficieneer Project
 
+Hope to provide you with efficiency.
+
 ## Project Description
 
 - 효율적인 일정 관리, 및 하루 기록을 위한 서비스
