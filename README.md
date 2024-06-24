@@ -1,30 +1,55 @@
-# React + TypeScript + Vite
+# Efficieneer Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Description
 
-Currently, two official plugins are available:
+- 효율적인 일정 관리, 및 하루 기록을 위한 서비스
+- Note : 하루 기록 및, 메모 기능을 이용한 텍스트 기록 서비스
+- ToDo : 할 일 목록 작성 서비스
+- Calender : ToDo와 연결 되어, 일정별 할 일 확인 서비스
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️Project Skills
 
-## Expanding the ESLint configuration
+### Basic
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [React](https://react.dev/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Vite](https://ko.vitejs.dev/guide/)
+- [Tailwind](https://tailwindcss.com/)
+- [React-Router](https://reactrouter.com/en/main)
 
-- Configure the top-level `parserOptions` property like this:
+### State Management
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+- Not Yet 😂
+
+## Project Architecture
+
 ```
+Efficieneer
+├─ .gitignore
+├─ index.html
+├─ package-lock.json
+├─ package.json
+├─ postcss.config.js
+├─ public
+├─ README.md
+├─ src
+│  ├─ App.tsx
+│  ├─ components
+│  ├─ features
+│  │  ├─ Calander
+│  │  │  └─ components
+│  │  ├─ Notes
+│  │  │  └─ components
+│  │  └─ ToDos
+│  │     └─ components
+│  ├─ global.css
+│  ├─ main.tsx
+│  ├─ pages
+│  ├─ store
+│  └─ vite-env.d.ts
+├─ tailwind.config.js
+├─ tsconfig.json
+├─ tsconfig.node.json
+└─ vite.config.ts
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+```
