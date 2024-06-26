@@ -11,7 +11,7 @@ function Root() {
   return (
     <>
       <MainNavigation />
-      <main className="grid place-items-center pt-[96px] w-screen h-screen overflow-auto">
+      <main className="grid place-items-center pt-[96px] w-screen h-screen overflow-scroll">
         <Outlet />
       </main>
     </>

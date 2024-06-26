@@ -9,7 +9,7 @@ type CardItemType = {
 function CardItem({ path, title, description }: CardItemType) {
   return (
     // card
-    <section id="card" className="m-4">
+    <section id="card" className="m-4 hover:animation-tapCard">
       <div className="bg-card w-80 min-h-[16rem] rounded-xl shadow-lg shadow-neutral-400 flex flex-col items-start justify-around px-6">
         <h2 className="text-2xl block font-bold">{title}</h2>
         {/* 이미지 넣는 부분 */}

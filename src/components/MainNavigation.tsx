@@ -1,6 +1,7 @@
 import { useState } from "react";
 import NavList from "./NavList";
 import MainTitle from "./MainTitle";
+import { servieInfo } from "../utils/serviceInfo";
 
 const navList = [
   { name: "Notes", path: "/notes" },
@@ -26,11 +27,11 @@ function MainNavigation() {
       <section id="root-nav-menu" className="flex justify-center items-center">
         <nav className={`${isNavOpen ? "block" : "hidden"} md:block`}>
           <ul id="root-nav-list" className="flex justify-around items-center">
-            {navList.map((nav) => (
+            {servieInfo.map((service) => (
               <NavList
-                key={nav.name + nav.path}
-                name={nav.name}
-                path={nav.path}
+                key={service.title + service.path}
+                name={service.title}
+                path={service.path}
               />
             ))}
           </ul>
